@@ -47,11 +47,6 @@ for i in range(num_images):
         elif shape_type == "sun":
             draw.ellipse([(x1, y1), (x2, y2)], fill='yellow')
 
-    # Add caption text
-    caption_text = 'Nature NFT #' + str(i + 1)
-    text_bbox = draw.textbbox((0, 0), caption_text, font=caption_font)
-    text_position = ((width - text_bbox[2]) // 2, height - text_bbox[3] - 10)
-    draw.text(text_position, caption_text, fill='black', font=caption_font)
 
     # Save the generated NFT image under 'NatureNFTs' folder
     image_name = f"{i+1}.png"
