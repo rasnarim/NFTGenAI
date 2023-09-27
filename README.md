@@ -33,6 +33,8 @@ cd NFTGenAI
 ## 📜 Scripts
 
 ### SpectralMandala.py
+<img src="https://github.com/rasnarim/NFTGenAI/blob/main/images/3.png" alt="Example Image" width="50%"/>
+
 ![Example Image](https://github.com/rasnarim/NFTGenAI/blob/main/images/3.png)
 - Generates 10,800 unique images visualized as parallel universes.
 - Randomly positioned and colored lines and circles.
